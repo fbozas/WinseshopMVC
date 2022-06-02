@@ -10,7 +10,30 @@
     <link rel="stylesheet" type="text/css" href="~/Content/style.css" />
 </head>
 <body>
-    <div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" 
+                        type="button"
+                        class="navbar-toggler" 
+                        data-toggle="collapse" 
+                        data-target=".navbar-collapse">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+                @Html.ActionLink("My Logo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <div class="nav navbar-nav">
+                    @Html.ActionLink("Home", "Index", "Home",new { }, new { @class = "nav-item nav-link"})
+                    @Html.ActionLink("About", "About", "Home", new { }, new { @class = "nav-item nav-link" })
+                    @Html.ActionLink("Contact", "Contact", "Home", new { }, new { @class = "nav-item nav-link" })
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
         @RenderBody()
     </div>
 </body>
