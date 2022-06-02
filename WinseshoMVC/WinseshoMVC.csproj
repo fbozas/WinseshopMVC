@@ -136,6 +136,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\cat1.jpg" />
+    <Content Include="img\cat2.jpg" />
+    <Content Include="img\cat3.jpg" />
+    <Content Include="img\cat4.jpg" />
+    <Content Include="img\check.png" />
+    <Content Include="img\headerImage.jpg" />
+    <Content Include="img\team-1.jpg" />
+    <Content Include="img\team-2.png" />
+    <Content Include="img\team-3.jpg" />
+    <Content Include="img\wineSlide.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
