@@ -14,18 +14,18 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" 
+                <button type="button"
                         type="button"
-                        class="navbar-toggler" 
-                        data-toggle="collapse" 
+                        class="navbar-toggler"
+                        data-toggle="collapse"
                         data-target=".navbar-collapse">
-                   <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 @Html.ActionLink("My Logo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <div class="nav navbar-nav">
-                    @Html.ActionLink("Home", "Index", "Home",new { }, new { @class = "nav-item nav-link"})
+                    @Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "nav-item nav-link" })
                     @Html.ActionLink("About", "About", "Home", new { }, new { @class = "nav-item nav-link" })
                     @Html.ActionLink("Contact", "Contact", "Home", new { }, new { @class = "nav-item nav-link" })
                 </div>
@@ -36,5 +36,57 @@
     <div class="container">
         @RenderBody()
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Column 1</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Column 2</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Column 3</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Column 4</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <!-- Bootstrap javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Toastr.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
 </body>
 </html>
